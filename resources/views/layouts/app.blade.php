@@ -12,12 +12,12 @@
     <title>Finance Business HTML5 Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{{url('vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-finance-business.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
+    <link rel="stylesheet" href="{{url('assets/css/fontawesome.css')}}">
+    <link rel="stylesheet" href="{{url('assets/css/templatemo-finance-business.css')}}">
+    <link rel="stylesheet" href="{{url('assets/css/owl.css')}}">
 <!--
 Finance Business TemplateMo
 https://templatemo.com/tm-545-finance-business
@@ -25,7 +25,7 @@ https://templatemo.com/tm-545-finance-business
   </head>
 
   <body>
-    
+
     <!-- ***** Preloader Start ***** -->
     <div id="preloader">
         <div class="jumper">
@@ -35,30 +35,44 @@ https://templatemo.com/tm-545-finance-business
         </div>
     </div>  
     <!-- ***** Preloader End ***** -->
-    
-    
-    @extends('layouts.header');
+
     <!-- Header -->
+    @include('layouts.header')
 
-    
-    
-    
+    <header class="">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="index.html"><h2>Finance Business</h2></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+          @include('layouts.menu')
+            
+          </div>
+        </div>
+      </nav>
+    </header>
+
     <!-- Page Content -->
-    @yield('content')
-    
+    <!-- Banner Starts Here -->
+    @include('layouts.slider')
+    <!-- Banner Ends Here -->
 
-    @extends('layouts.footer')
+    @yield('content')
+
+  @include('layouts.footer')
     
 
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="{{url('vendor/jquery/jquery.min.js')}}"></script>
+    <script src="{{url('vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
 
     <!-- Additional Scripts -->
-    <script src="assets/js/custom.js"></script>
-    <script src="assets/js/owl.js"></script>
-    <script src="assets/js/slick.js"></script>
-    <script src="assets/js/accordions.js"></script>
+    <script src="{{url('assets/js/custom.js')}}"></script>
+    <script src="{{url('assets/js/owl.js')}}"></script>
+    <script src="{{url('assets/js/slick.js')}}"></script>
+    <script src="{{url('assets/js/accordions.js')}}"></script>
 
     <script language = "text/Javascript"> 
       cleared[0] = cleared[1] = cleared[2] = 0; //set a cleared flag for each field

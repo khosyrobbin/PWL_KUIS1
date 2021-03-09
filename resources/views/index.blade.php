@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-@extends('layouts.slider')
+
     
 
 <div class="request-form">

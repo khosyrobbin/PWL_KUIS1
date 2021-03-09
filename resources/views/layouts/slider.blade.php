@@ -1,42 +1,40 @@
-<!-- Banner Starts Here -->
 <div class="main-banner header-text" id="top">
-    <div class="Modern-Slider">
-      <!-- Item -->
-      <div class="item item-1">
-        <div class="img-fill">
-            <div class="text-content">
-              <h6>Khosy Robbin Hood</h6>
-              <h4>NIM<br>&amp; 1941720067</h4>
-              <p>This finance HTML template is 100% free of charge provided by TemplateMo for everyone. You can download, edit and use this layout for your business website.</p>
-              <a href="contact.html" class="filled-button">contact us</a>
+  <div class="Modern-Slider">
+            <!-- Item -->
+            <div class="item item-1">
+              <div class="img-fill">
+                  <div class="text-content">
+                    <h6>we are ready to help you</h6>
+                    <h4>Financial Analysis<br>&amp; consulting</h4>
+                    <p>This finance HTML template is 100% free of charge provided by TemplateMo for everyone. You can download, edit and use this layout for your business website.</p>
+                    <a href="contact.html" class="filled-button">contact us</a>
+                  </div>
+              </div>
             </div>
-        </div>
-      </div>
-      <!-- // Item -->
-      <!-- Item -->
-      <div class="item item-2">
-        <div class="img-fill">
-            <div class="text-content">
-              <h6>we are here to support you</h6>
-              <h4>Accounting<br>&amp; Management</h4>
-              <p>You are allowed to use this template for your company websites. You are NOT allowed to re-distribute this template ZIP file on any template download website. Please contact TemplateMo for more detail.</p>
-              <a href="services.html" class="filled-button">our services</a>
+            <!-- // Item -->
+            <!-- Item -->
+            <div class="item item-2">
+              <div class="img-fill">
+                  <div class="text-content">
+                    <h6>we are here to support you</h6>
+                    <h4>Accounting<br>&amp; Management</h4>
+                    <p>You are allowed to use this template for your company websites. You are NOT allowed to re-distribute this template ZIP file on any template download website. Please contact TemplateMo for more detail.</p>
+                    <a href="services.html" class="filled-button">our services</a>
+                  </div>
+              </div>
             </div>
-        </div>
-      </div>
-      <!-- // Item -->
-      <!-- Item -->
-      <div class="item item-3">
-        <div class="img-fill">
-            <div class="text-content">
-              <h6>we have a solid background</h6>
-              <h4>Market Analysis<br>&amp; Statistics</h4>
-              <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate mi. Sed nec cursus augue. Phasellus lacinia ac sapien vitae dapibus. Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</p>
-              <a href="about.html" class="filled-button">learn more</a>
+            <!-- // Item -->
+            <!-- Item -->
+            <div class="item item-3">
+              <div class="img-fill">
+                  <div class="text-content">
+                    <h6>we have a solid background</h6>
+                    <h4>Market Analysis<br>&amp; Statistics</h4>
+                    <p>Vivamus ut tellus mi. Nulla nec cursus elit, id vulputate mi. Sed nec cursus augue. Phasellus lacinia ac sapien vitae dapibus. Mauris ut dapibus velit cras interdum nisl ac urna tempor mollis.</p>
+                    <a href="about.html" class="filled-button">learn more</a>
+                  </div>
+              </div>
             </div>
-        </div>
-      </div>
-      <!-- // Item -->
-    </div>
-</div>
-<!-- Banner Ends Here -->
+            <!-- // Item -->
+          </div>
+          </div>
