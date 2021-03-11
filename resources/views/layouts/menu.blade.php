@@ -13,4 +13,16 @@
   <li class="nav-item">
     <a class="nav-link" href="{{url('/contact')}}">Contact Us</a>
   </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{{url('/about')}}">Barang</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{{url('/about')}}">Pelanggan</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{{url('/about')}}">Pegawai</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="{{url('/about')}}">Supplier</a>
+  </li>
 </ul>
