@@ -14,15 +14,15 @@
     <a class="nav-link" href="{{url('/contact')}}">Contact Us</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="{{url('/about')}}">Barang</a>
+    <a class="nav-link" href="{{url('/barang')}}">Barang</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="{{url('/about')}}">Pelanggan</a>
+    <a class="nav-link" href="{{url('/pelanggan')}}">Pelanggan</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="{{url('/about')}}">Pegawai</a>
+    <a class="nav-link" href="{{url('/pegawai')}}">Pegawai</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="{{url('/about')}}">Supplier</a>
+    <a class="nav-link" href="{{url('/supplier')}}">Supplier</a>
   </li>
 </ul>

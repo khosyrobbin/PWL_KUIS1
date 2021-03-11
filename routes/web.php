@@ -22,3 +22,8 @@ Route::get('/', [HomeController::class, 'index']);
 Route::get('/about',[HomeController::class, 'about']);
 Route::get('/contact',[HomeController::class, 'contact']);
 Route::get('/services',[HomeController::class, 'services']);
+Route::get('/barang',[HomeController::class, 'barang']);
+Route::get('/pelanggan',[HomeController::class, 'pelanggan']);
+Route::get('/pegawai',[HomeController::class, 'pegawai']);
+Route::get('/supplier',[HomeController::class, 'supplier']);
+
