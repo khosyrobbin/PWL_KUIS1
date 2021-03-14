@@ -27,3 +27,4 @@ Route::get('/pelanggan',[HomeController::class, 'pelanggan']);
 Route::get('/pegawai',[HomeController::class, 'pegawai']);
 Route::get('/supplier',[HomeController::class, 'supplier']);
 
+//ini adalah komentar
